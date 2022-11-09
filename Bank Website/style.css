@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav {
+    background-color: rgba(249, 249, 249, 0.943);
+    padding: 7px 0;
+    align-items: center;
+}
+
+nav .container .logo a img {
+    margin-top: 4px;
+    width: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav .container .list ul {
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+nav .container .list ul li {
+    cursor: pointer;
+}
+
+nav .links {
+    margin-left: 230px;
+    align-items: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .links .link-2 img {
+    width: 65px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+
+}
+
+nav .links .link-1 {
+    align-items: center;
+}
+
+nav .links .link-1 a {
+    font-size: 13px;
+    margin-bottom: 3px;
+    padding: 6px 20px;
+    width: auto;
+}
+
+nav .links .link-1 .active {
+    border: 2px solid orangered;
+    border-radius: 5px;
+    color: orangered;
+    font-weight: 700;
+    background-color: white;
+}
+
+nav .links .link-1 .inactive {
+    border: 1px solid rgba(234, 234, 234, 0.936);
+    border-left: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+nav .links .link-3 {
+    align-items: center;
+    column-gap: 15px;
+}
+
+nav .links .link-3 a {
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding: 5px 8px;
+    width: auto;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav .links .link-3 i {
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding: 8px 10px;
+    width: auto;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Navbar 2 */
+
+.nav2 {
+    background-color: white;
+    align-items: center;
+    margin-left: -65px;
+    margin-top: 10px;
+}
+
+.nav2 .container .list ul {
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+    font-size: 17.5px;
+    margin-top: 9px;
+    font-weight: 700;
+}
+
+.nav2 .container .list ul li {
+    cursor: pointer;
+}
+
+.nav2 .container .list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav2 .links {
+    align-items: center;
+    margin-left: 250px;
+}
+
+.nav2 .container .links .link-1 {
+    padding: 10px 0;
+    border: 1px solid rgba(221, 220, 220, 0.936);
+    border-radius: 56px;
+    align-items: center;
+}
+
+.nav2 .container .links .link-1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav2 .container .links .link-1 i {
+    color: orangered;
+    font-size: 17px;
+    margin-right: 7px;
+}
+
+.nav2 .links .link-2 {
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px 14px;
+    border: 1px solid rgba(221, 220, 220, 0.936);
+    border-radius: 56px;
+    align-items: center;
+}
+
+.nav2 .links .link-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav2 .links .link-2 a i {
+    color: orangered;
+    font-size: 17px;
+    margin-right: 7px;
+}
+
+/* Header Start */
+
+header {
+  margin-top: 20px;
+}
+
+header .carouselDiv {
+    background-color: rgb(255, 102, 0);
+    padding: 60px 40px;
+    border-radius: 8px;
+    height: 450px;
+}
+
+header .carouselDiv .firstSlide-box-1 img {
+    margin-left: 20px;
+}
+
+header .carouselDiv .firstSlide-box-2 {
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-2 h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-2 p {
+    font-size: 15px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-2 a {
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-1 .second-slide-img {
+    margin-top: 20px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-1 .third-slide-img {
+    margin-top: 59px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-1 .fifth-slide-img {
+    height: 350px;
+    margin-left: 220px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-1 .seventh-slide-img {
+    width: 390px;
+}
+
+header .carouselDiv .firstSlide .firstSlide-box-1 .eigth-slide-img {
+    width: 480px;
+}
+
+header .carouselDiv .firstSlide #button {
+    color: rgb(255, 102, 0);
+    font-size: 16px;
+    padding: 7px 17px;
+}
+
+header .carouselDiv .firstSlide #button span {
+    font-size: 16px;
+}
+
+header .divCards div .card {
+    background-color: rgba(249, 249, 249, 0.943);
+    border: none;
+    height: 400px;
+}
+
+header .divCards div .card h2 {
+    color: rgb(255, 102, 0);
+    font-weight: 700;
+}
+
+header .divCards div .card p {
+    text-align: justify;
+}
+
+header .divCards div .card a {
+    text-decoration: none;
+    background-color: rgb(255, 102, 0);
+    border-radius: 20px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+
+/* form */
+
+.divForm {
+    position: relative;
+    background-color: rgba(249, 249, 249, 0.943);
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.divForm .logo img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 270px;
+    top: 10px;
+}
+
+.divForm form .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    position: relative;
+}
+
+.divForm form .title::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 33px;
+    bottom: 2px;
+    left: 0;
+    border-radius: 5px;
+    background: rgb(255, 102, 0);
+}
+
+.divForm form .input-box {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.divForm form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(249, 249, 249, 0.943);
+}
+
+.divForm form .underline::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    right: 0;
+
+}
+
+.divForm form .underline::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgb(255, 102, 0);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease;
+}
+
+.divForm form .input-box input:focus ~ .underline::after, .divForm form .input-box .input:valid ~ .underline::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.divForm form #button {
+    margin: 40px 0 20px 0;
+}
+
+.divForm form .input-box input[type="submit"] {
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(255, 102, 0);
+    transition: all 0.3s ease;
+}
+
+.divForm form .input-box input[type="submit"]:hover {
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.15);
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.divForm .text {
+    font-size: 14px;
+    text-align: center;
+}
+
+.divForm .github a,
+.divForm .twitter a,
+.divForm .facebook a {
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 4px;
+}
+
+.divForm .github a {
+    background-color: #24292e;
+    margin: 20px 0 15px 0;
+    transition: all 0.3s ease;
+}
+
+.divForm .github a:hover {
+    background-color: #687684;
+}
+
+.divForm .twitter a {
+    background-color: #1ad1f2;
+    margin: 20px 0 15px 0;
+    transition: all 0.3s ease;
+}
+
+.divForm .twitter a:hover {
+    background-color: #72dff2;
+}
+
+.divForm .facebook a {
+    background-color: #4267b2;
+    margin: 20px 0 15px 0;
+    transition: all 0.3s ease;
+}
+
+.divForm .facebook a:hover {
+    background-color: #5f7db8;
+}
+
+.divForm .github i,
+.divForm .twitter i,
+.divForm .facebook i {
+    font-size: 22px;
+    padding-right: 22px;
+}
